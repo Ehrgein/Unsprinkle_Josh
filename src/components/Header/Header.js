@@ -1,9 +1,9 @@
-import React from 'react';
-import styled from 'styled-components/macro';
+import React from "react";
+import styled from "styled-components/macro";
 
-import MaxWidthWrapper from '../MaxWidthWrapper';
-import Logo from '../Logo';
-import SearchInput from '../SearchInput';
+import MaxWidthWrapper from "../MaxWidthWrapper";
+import Logo from "../Logo";
+import SearchInput from "../SearchInput";
 
 const Header = () => {
   return (
@@ -62,6 +62,7 @@ const NavLink = styled.a`
   color: inherit;
   text-decoration: none;
   font-weight: 475;
+  font-family: "Inter", sans-serif;
 `;
 
 export default Header;
